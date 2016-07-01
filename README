@@ -2,8 +2,8 @@ Csys二维平面随机坐标生成，最大限度避免重叠
 
 var csys = new Csys(bw, bh, tw, th);    
 接收四个参数：bw：面板宽度;bh：面板高度;tw: 标签宽度;th：标签高度.
-//产生随机数,可选参数，定义本次标签宽高，默认tw,th。
-csys.gps(iw,ih);   
+//产生随机数,可选参数iw,ih，定义本次标签宽高，默认tw,th。
+csys.gps();   
 
 应用例子：添加印象标签
 http://121.43.59.161/article/2
